@@ -44,6 +44,7 @@ nav img {
 #btn-try:hover {
     background: #FF52BF;
     color: #fff;
+    box-shadow: 2px 6px 6px #E4E4E4;
 }
 
 
