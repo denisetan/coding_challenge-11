@@ -97,6 +97,15 @@ nav img {
 /* ---------------------------------------------
                 COUNTER SECTION
    ---------------------------------------------- */
+#counter {
+    margin: 40px 0;
+}
+
 #counter img {
-    width: 30px;
+    width: 30px;   
+}
+
+#counter h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
