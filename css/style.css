@@ -24,16 +24,18 @@ h1 {
 /* ---------------------------------------------
                     NAV SECTION
    ---------------------------------------------- */
-
 nav {
-    margin-top: 30px;
+    padding-top: 50px;    
+    background: #fff;
 }
 
 nav img {
+    margin-top: 10px;
     width: 80%;
 }
 
 #btn-try {
+    margin-top: 20px;
     border-radius: 18px;
     border: 1px solid #FF52BF;
     color: #FF52BF;
@@ -52,7 +54,7 @@ nav img {
                     HOME/HEADER SECTION
    ---------------------------------------------- */
 #home-section {
-    padding-top: 250px;
+    margin-top: 250px;
 }
 
 #home-section p {
@@ -78,5 +80,10 @@ nav img {
     color: #FF52BF;
     box-shadow: 0 0 0;
 }
+
+
+/* ---------------------------------------------
+                MOCKUP SECTION
+   ---------------------------------------------- */
 
 
