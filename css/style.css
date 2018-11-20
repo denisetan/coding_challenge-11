@@ -13,7 +13,7 @@
 
 ==============================================================================*/
 
-bbody {
+body {
     font-family: 'Open Sans', sans-serif; 
 }
 
@@ -30,16 +30,24 @@ nav {
 }
 
 nav img {
-    width: 75%;
+    width: 80%;
 }
 
 #btn-try {
     border-radius: 18px;
     border: 1px solid #FF52BF;
     color: #FF52BF;
-    width: 120px;
+    width: 110px;
+    padding: 5px 0;
 }
 
+
+/* ---------------------------------------------
+                    HOME/HEADER SECTION
+   ---------------------------------------------- */
+#home-section {
+    padding-top: 250px;
+}
 
 
 
