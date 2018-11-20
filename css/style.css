@@ -13,9 +13,11 @@
 
 ==============================================================================*/
 
+/*
 body {
     font-family: 'Open Sans', sans-serif; 
 }
+*/
 
 h1 {
     font-family: 'Poppins', sans-serif;
@@ -41,6 +43,11 @@ nav img {
     padding: 5px 0;
 }
 
+#btn-try:hover {
+    background: #FF52BF;
+    color: #fff;
+}
+
 
 /* ---------------------------------------------
                     HOME/HEADER SECTION
@@ -49,5 +56,29 @@ nav img {
     padding-top: 250px;
 }
 
+#home-section p {
+    width: 45%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.btn-start {
+    background: #FF52BF;
+    color: #F5FAFF;
+    border-color: #FF52BF;
+    border-radius: 27px;
+    padding: 15px 30px;
+    width: 280px;
+    font-weight: 600;
+    box-shadow: 2px 6px 6px #E4E4E4;
+}
+
+.btn-start:hover {
+    background: #fff;
+    border-color: #FF52BF;
+    color: #FF52BF;
+    box-shadow: 0 0 0;
+}
 
 
