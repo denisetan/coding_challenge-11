@@ -12,3 +12,34 @@
     Body           :    'Open Sans', sans-serif; 
 
 ==============================================================================*/
+
+bbody {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ---------------------------------------------
+                    NAV SECTION
+   ---------------------------------------------- */
+
+nav {
+    margin-top: 30px;
+}
+
+nav img {
+    width: 75%;
+}
+
+#btn-try {
+    border-radius: 18px;
+    border: 1px solid #FF52BF;
+    color: #FF52BF;
+    width: 120px;
+}
+
+
+
+
