@@ -113,3 +113,27 @@ nav img {
 #message-sent {
    padding-left: 20px;
 }
+
+/* ---------------------------------------------
+                GROW SECTION
+   ---------------------------------------------- */
+#grow {
+    margin-top: 150px;
+    background: #F5FAFF;
+}
+
+#grow::before {
+    background: url('../img/bg-section-top-desktop-1.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top; 
+}
+
+
+#grow h3 {
+    font-weight: 700;
+}
+
+#grow img {
+    width: 80%;
+}
