@@ -117,6 +117,10 @@ nav img {
 /* ---------------------------------------------
                 GROW SECTION
    ---------------------------------------------- */
+.section-content {
+    background-color: #F5FAFF;
+}
+
 #grow h1 {
     font-size: 2rem;
 }
@@ -129,16 +133,11 @@ nav img {
     overflow: hidden;
 }
 
+#grow #grow-text {
+    padding-left: 100px;
+}
+
 #grow #pic-grow {
-    width: 70%;
-}
-
-/*
-#grow-text {
-    padding-left: 60px;    
-}
-*/
-
-.section-content {
-    background-color: #F5FAFF;
+    width: 80%;
+    padding-left: 80px;
 }
