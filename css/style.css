@@ -115,7 +115,7 @@ nav img {
 }
 
 /* ---------------------------------------------
-                GROW SECTION
+            COMMON STYLING OF SECTIONS
    ---------------------------------------------- */
 .section-content {
     background-color: #F5FAFF;
@@ -125,14 +125,17 @@ nav img {
     font-size: 2rem;
 }
 
-#grow p {
+#grow p, #flow p, #users p {
     font-weight: 600;
 }
 
-#grow img {
+#grow img, #users img {
     overflow: hidden;
 }
 
+/* ---------------------------------------------
+                GROW SECTION
+   ---------------------------------------------- */
 #grow #grow-text {
     padding-left: 100px;
 }
@@ -142,6 +145,7 @@ nav img {
     padding-left: 80px;
 }
 
+
 /* ---------------------------------------------
                  FLOW SECTION
    ---------------------------------------------- */
@@ -150,21 +154,10 @@ nav img {
     padding-left: 20px;
 }
 
-#flow p {
-    font-weight: 600;
-}
 
 /* ---------------------------------------------
                 USERS SECTION
    ---------------------------------------------- */
-#users p {
-    font-weight: 600;
-}
-
-#users img {
-    overflow: hidden;
-}
-
 #users #users-text {
     padding-left: 100px;
 }
