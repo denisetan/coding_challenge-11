@@ -119,13 +119,15 @@ nav img {
    ---------------------------------------------- */
 #grow {
     margin-top: 150px;
-    background: #F5FAFF;
+    background-color: #F5FAFF;
 }
+   
 
-#grow::before {
-    background: url('../img/bg-section-top-desktop-1.svg');
+#grow:before {
+    background-image: url('../img/bg-section-top-desktop-1.svg');
     background-repeat: no-repeat;
-    background-attachment: fixed;   
+    background-attachment: fixed;  
+    position: relative;
 }
 
 #grow h1 {
