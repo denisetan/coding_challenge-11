@@ -149,3 +149,27 @@ nav img {
     width: 80%;
     padding-left: 20px;
 }
+
+#flow p {
+    font-weight: 600;
+}
+
+/* ---------------------------------------------
+                USERS SECTION
+   ---------------------------------------------- */
+#users p {
+    font-weight: 600;
+}
+
+#users img {
+    overflow: hidden;
+}
+
+#users #users-text {
+    padding-left: 100px;
+}
+
+#users #pic-users {
+    width: 80%;
+    padding-left: 60px;
+}
