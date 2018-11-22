@@ -54,7 +54,7 @@ nav img {
                     HOME/HEADER SECTION
    ---------------------------------------------- */
 #home-section {
-    margin-top: 250px;
+    padding-top: 250px;
 }
 
 #home-section p {
@@ -108,4 +108,8 @@ nav img {
 #counter h2 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+}
+
+#message-sent {
+   padding-left: 20px;
 }
