@@ -125,13 +125,15 @@ nav img {
 #grow::before {
     background: url('../img/bg-section-top-desktop-1.svg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top; 
+    background-attachment: fixed;   
 }
 
+#grow h1 {
+    font-size: 2rem;
+}
 
-#grow h3 {
-    font-weight: 700;
+#grow p {
+    font-weight: 600;
 }
 
 #grow img {
