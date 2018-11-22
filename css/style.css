@@ -126,9 +126,19 @@ nav img {
 }
 
 #grow img {
-    width: 100%;
+    overflow: hidden;
 }
 
 #grow #pic-grow {
-    width: 80%;
+    width: 70%;
+}
+
+/*
+#grow-text {
+    padding-left: 60px;    
+}
+*/
+
+.section-content {
+    background-color: #F5FAFF;
 }
