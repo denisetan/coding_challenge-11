@@ -121,7 +121,7 @@ nav img {
     background-color: #F5FAFF;
 }
 
-#grow h1 {
+.section-title {
     font-size: 2rem;
 }
 
@@ -140,4 +140,12 @@ nav img {
 #grow #pic-grow {
     width: 80%;
     padding-left: 80px;
+}
+
+/* ---------------------------------------------
+                 FLOW SECTION
+   ---------------------------------------------- */
+#flow img {
+    width: 80%;
+    padding-left: 20px;
 }
