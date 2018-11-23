@@ -191,7 +191,20 @@ nav img {
 }
 
 .fab:hover {
-    color: #FF52BF;    
+    color: #FF52BF;  
+	margin-top: -2px;
+}
+
+#btn-subscribe {
+	background: #FF52BF;
+	color: #fff;
+	border: 1px solid #FF52BF;
+}
+
+#btn-subscribe:hover {
+	background: #fff;
+	color: #FF52BF;
+	border: 1px solid #FF52BF;
 }
 
 footer h5 {
@@ -200,6 +213,8 @@ footer h5 {
 
 footer p {
     font-weight: 400;
+	width: 60%;
+	font-size: 0.9rem;
 }
 
 #footer-content {
