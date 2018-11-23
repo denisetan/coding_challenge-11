@@ -175,13 +175,13 @@ nav img {
     margin-bottom: 40px;
 }
 
-#ready button {
-    margin-bottom: 100px;
+#ready {
+    margin-bottom: 50px;
 }
 
 /* ---------------------------------------------
                 FOOTER
-   ---------------------------------------------- */    
+   ---------------------------------------------- */  
 .section-content2 {
     background-color: #00252E;
 }
@@ -191,5 +191,17 @@ nav img {
 }
 
 .fab:hover {
-    color: #FF52BF;
+    color: #FF52BF;    
+}
+
+footer h5 {
+    font-weight: 600;
+}
+
+footer p {
+    font-weight: 400;
+}
+
+#footer-content {
+    padding-bottom: 25px;
 }
