@@ -47,6 +47,8 @@ nav img {
     background: #FF52BF;
     color: #fff;
     box-shadow: 2px 6px 6px #E4E4E4;
+	transition: .5s ease;
+	-webkit-transition: .5s ease;
 }
 
 
@@ -211,6 +213,8 @@ nav img {
 	background: #fff;
 	color: #FF52BF;
 	border: 1px solid #FF52BF;	
+	transition: .5s ease;
+	-webkit-transition: .5s ease;
 }
 
 footer h5 {
