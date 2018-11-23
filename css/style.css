@@ -185,3 +185,11 @@ nav img {
 .section-content2 {
     background-color: #00252E;
 }
+
+.fab {
+    color: #fff;
+}
+
+.fab:hover {
+    color: #FF52BF;
+}
