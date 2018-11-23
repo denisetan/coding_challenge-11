@@ -71,7 +71,7 @@ nav img {
     padding: 15px 30px;
     width: 280px;
     font-weight: 600;
-    box-shadow: 2px 6px 6px #E4E4E4;
+    box-shadow: 2px 6px 6px #E4E4E4;	
 }
 
 .btn-start:hover {
@@ -79,6 +79,10 @@ nav img {
     border-color: #FF52BF;
     color: #FF52BF;
     box-shadow: 0 0 0;
+	transform: scale(1.03);
+	transition: transform .2s ease;
+	-webkit-transform: scale(1.03);
+	-webkit-transition: transform .2s ease;
 }
 
 
@@ -193,6 +197,8 @@ nav img {
 .fab:hover {
     color: #FF52BF;  
 	margin-top: -2px;
+	transition: .2s ease;
+	-webkit-transition: .2s ease;
 }
 
 #btn-subscribe {
@@ -204,19 +210,19 @@ nav img {
 #btn-subscribe:hover {
 	background: #fff;
 	color: #FF52BF;
-	border: 1px solid #FF52BF;
+	border: 1px solid #FF52BF;	
 }
 
 footer h5 {
     font-weight: 600;
 }
 
-footer p {
-    font-weight: 400;
+footer p {    
 	width: 60%;
 	font-size: 0.9rem;
 }
 
 #footer-content {
+	padding-top: 25px;
     padding-bottom: 25px;
 }
