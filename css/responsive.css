@@ -33,6 +33,15 @@
 		 width: 70%;
 	}	
 	
+	/* Counter Section*/
+	.counter-text {
+		text-align: center;
+	}
+	
+	#message-sent {
+   		padding-left: 0;
+	}
+	
 	/* Footer Section */
 	#footer-content {
 		justify-content: center;
@@ -60,6 +69,7 @@
 	
 	.fab {
 		font-size: 1.6rem;
+		margin-top: -10px;
 	}
 }
 
