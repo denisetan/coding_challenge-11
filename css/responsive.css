@@ -24,16 +24,8 @@
 		justify-content: center;
 	}
 	
-	#newsletter {
-		order: 1;		
-	}
-	
-	#btn-subscribe {
-/*		margin-left: auto;*/
-	}
-	
 	#footer-contact {
-		order: 2;		
+		margin-left: 0 !important;
 	}
 }
 
@@ -41,5 +33,3 @@
 @media (min-width: 1200px){
 	/* OK */
 }
-
-

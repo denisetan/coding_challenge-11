@@ -226,6 +226,10 @@ footer p {
 	font-size: 0.9rem;
 }
 
+#contact-text {
+	width: 70%;
+}
+
 #footer-content {
 	padding-top: 25px;
     padding-bottom: 25px;
