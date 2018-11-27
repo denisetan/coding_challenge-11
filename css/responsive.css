@@ -18,13 +18,28 @@
 }
 
 /* Large Devices (Lanscape Tablets & Medium Desktops) */
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+	/* Footer Section */
+	#footer-content {
+		justify-content: center;
+	}
 	
+	#newsletter {
+		order: 1;		
+	}
+	
+	#btn-subscribe {
+/*		margin-left: auto;*/
+	}
+	
+	#footer-contact {
+		order: 2;		
+	}
 }
 
 /* Extra Large Devices (Desktop & Laptops) */
 @media (min-width: 1200px){
-	
+	/* OK */
 }
 
 
