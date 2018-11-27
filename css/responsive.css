@@ -1,24 +1,13 @@
 /*=============================================================================
 						MEDIA QUERIES
 ==============================================================================*/
-
-/* Extra Small Devices (Portrait Phones) */
-@media (min-width: 320px) {
-	
-}
-
-/* Small Devices (Landscape phones) */
-@media (min-width: 576px) {
-	
-}
-
-/* Medium Devices (Portrait Tablets & Small Desktops) */
-@media (min-width: 768px) {
-	
+/* Extra Large Devices (Desktop & Laptops) */
+@media (min-width: 1200px){
+	/* OK */
 }
 
 /* Large Devices (Lanscape Tablets & Medium Desktops) */
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 992px) {
 	/* Footer Section */
 	#footer-content {
 		justify-content: center;
@@ -29,7 +18,57 @@
 	}
 }
 
-/* Extra Large Devices (Desktop & Laptops) */
-@media (min-width: 1200px){
-	/* OK */
+/* Medium Devices (Portrait Tablets & Small Desktops) */
+@media (min-width: 768px) {
+	/* Home Section */
+	#home-section {
+		padding-top: 190px;
+	}
+	
+	#home-section h1 {
+		font-size: 2rem;
+	}
+	
+	#home-section p {
+		 width: 70%;
+	}	
+	
+	/* Footer Section */
+	#footer-content {
+		justify-content: center;
+	}
+	
+	#footer-contact {
+		margin-left: 0 !important;
+	}
+	
+	#contact-text {
+		width: 95%;
+	}
+	
+	footer p {
+		width: 100%;
+	}
+	
+	#btn-subscribe {
+		margin-left: -15px;
+	}
+	
+	#newsletter {
+		margin-left: -2px!important;
+	}
+	
+	.fab {
+		font-size: 1.6rem;
+	}
+}
+
+/* Small Devices (Landscape phones) */
+@media (min-width: 576px) {
+	
+}
+
+/* Extra Small Devices (Portrait Phones) */
+@media (min-width: 320px) {
+	
 }
