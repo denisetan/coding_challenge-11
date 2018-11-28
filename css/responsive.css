@@ -138,6 +138,45 @@
 	}
 	
 	/* Footer Section */
+	#footer-content {
+		justify-content: center;
+	}
+	
+	#footer-contact {
+		order: 2;
+		margin: auto!important;
+	}
+	
+	#contact-text {
+		width: 95%;
+	}
+	
+	footer p {
+		width: 95%;
+	}
+	
+	#newsletter {
+		order: 1;
+		margin-left: -22px!important;
+		margin-bottom: 60px;
+	}
+	
+	#subscribe {
+		width: 99%;
+	}
+	
+	#btn-subscribe {
+		float: right;
+		margin-top: 12px;
+	}
+	
+	
+	.fab {
+		font-size: 1.6rem;
+		margin-top: -10px;
+	}
+}
+	
 }
 
 /* Extra Small Devices (Portrait Phones) */
