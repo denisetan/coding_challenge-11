@@ -59,12 +59,12 @@
 		width: 100%;
 	}
 	
-	#btn-subscribe {
-		margin-left: -15px;
-	}
-	
 	#newsletter {
 		margin-left: -2px!important;
+	}
+	
+	#btn-subscribe {
+		margin-left: -15px;
 	}
 	
 	.fab {
@@ -162,7 +162,7 @@
 	}
 	
 	#subscribe {
-		width: 99%;
+		width: 100%;
 	}
 	
 	#btn-subscribe {
@@ -170,13 +170,10 @@
 		margin-top: 12px;
 	}
 	
-	
 	.fab {
 		font-size: 1.6rem;
 		margin-top: -10px;
 	}
-}
-	
 }
 
 /* Extra Small Devices (Portrait Phones) */
