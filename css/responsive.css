@@ -110,6 +110,34 @@
 		order: 1;
 		margin-left: 15px;
 	}
+	
+	/* Flow Section */
+	#flow-text {		
+		text-align: center;
+		padding-left: 80px!important;
+		padding-top: 80px!important;
+		width: 90%;
+	}
+	
+	#pic-flow {		
+		margin-left: 40px;
+	}
+	
+	/* Users Section */
+	#users-text {
+		order: 2;
+		text-align: center;
+		padding-left: 80px!important;
+		padding-top: 80px!important;
+		width: 90%;
+	}
+	
+	#pic-users {
+		order: 1;
+		margin-left: 20px;
+	}
+	
+	/* Footer Section */
 }
 
 /* Extra Small Devices (Portrait Phones) */
