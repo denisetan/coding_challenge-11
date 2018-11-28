@@ -178,5 +178,135 @@
 
 /* Extra Small Devices (Portrait Phones) */
 @media (min-width: 320px) {
+	/* Nav Section */
+	nav img {
+		width: 50%;
+	}
 	
+	#btn-try {
+		margin-top: 10px;
+		border-radius: 18px;
+		width: 90px;
+		padding: 3px 0;
+		font-size: 12px;
+	}
+	
+	/* Home Section */
+	#home-section {
+		padding-top: 170px;
+	}
+	
+	#home-section h1 {
+		font-size: 1.8rem;
+	}
+	
+	#home-section p {
+		 width: 95%;
+	}
+	
+	.btn-start {
+		padding: 10px 20px;
+		width: 250px;
+		margin-top: 20px;
+	}
+	
+	/* Counter section */
+	#counter {
+		margin-left:110px;
+	}
+	
+	#messages-group {
+		padding-top: 50px;
+	}
+	
+	/* Grow section */
+	#grow-text {
+		order: 2;
+		text-align: center;
+		padding-left: 25px!important;
+		padding-top: 80px!important;
+		width: 98%;
+	}
+	
+	#grow-text h1 {
+		font-size: 1.8rem;
+	}
+	
+	#pic-grow {
+		order: 1;
+		margin-left: 5px;
+	}
+	
+	/* Flow Section */
+	#flow-text {		
+		text-align: center;
+		padding-left: 10px!important;
+		padding-top: 80px!important;
+		width: 100%;
+	}
+	
+	#flow-text h1 {
+		font-size: 1.8rem;
+	}
+	
+	#pic-flow {		
+		margin-left: 40px;
+	}
+	
+	/* Users Section */
+	#users-text {
+		order: 2;
+		text-align: center;
+		padding-left: 20px!important;
+		padding-top: 80px!important;
+		width: 100%;
+	}
+	
+	#users-text h1 {
+		font-size: 1.8rem;
+	}
+	
+	#pic-users {
+		order: 1;
+		margin-left: 20px;
+	}
+	
+	/* Footer Section */
+	#footer-content {
+		justify-content: center;
+	}
+	
+	#footer-contact {
+		order: 2;
+		margin: auto!important;
+	}
+	
+	#contact-text {
+		width: 95%;
+		margin-bottom: 40px;
+	}
+	
+	footer p {
+		width: 90%;
+	}
+	
+	#newsletter {
+		order: 1;
+		margin-left: -22px!important;
+		margin-bottom: 60px;
+	}
+	
+	#subscribe {
+		width: 100%;
+	}
+	
+	#btn-subscribe {
+		float: right;
+		margin-top: 12px;
+	}
+	
+	.fab {
+		font-size: 1.6rem;
+		margin-top: -10px;
+	}
 }
