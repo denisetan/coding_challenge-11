@@ -151,6 +151,9 @@ nav img {
     padding-left: 80px;
 }
 
+#bgtop-mobile1, #bgbottom-mobile1 {
+	display: none;
+}
 
 /* ---------------------------------------------
                  FLOW SECTION
@@ -173,6 +176,10 @@ nav img {
     padding-left: 60px;
 }
 
+#bgtop-mobile2, #bgbottom-mobile2 {
+	display: none;
+}
+
 /* ---------------------------------------------
                 READY SECTION
    ---------------------------------------------- */        
@@ -187,7 +194,11 @@ nav img {
 
 /* ---------------------------------------------
                 FOOTER
-   ---------------------------------------------- */  
+   ---------------------------------------------- */ 
+#footer-mobile {
+	display: none;
+}
+
 .section-content2 {
     background-color: #00252E;
 }

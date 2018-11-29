@@ -7,7 +7,7 @@
 }
 
 /* Large Devices (Lanscape Tablets & Medium Desktops) */
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
 	/* Footer Section */
 	#footer-content {
 		justify-content: center;
@@ -19,7 +19,7 @@
 }
 
 /* Medium Devices (Portrait Tablets & Small Desktops) */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	/* Home Section */
 	#home-section {
 		padding-top: 190px;
@@ -74,7 +74,7 @@
 }
 
 /* Small Devices (Landscape phones) */
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 767px) {
 	/* Home Section */
 	#home-section {
 		padding-top: 190px;
@@ -111,6 +111,24 @@
 		margin-left: 15px;
 	}
 	
+	#bgtop-desktop1 {
+		display: none;
+	}
+	
+	#bgtop-mobile1 {
+		display: block;
+		width: 100%;
+	}
+	
+	#bgbottom-desktop1{
+		display: none;
+	}
+	
+	#bgbottom-mobile1{
+		display: block;
+		width: 100%;
+	}
+	
 	/* Flow Section */
 	#flow-text {		
 		text-align: center;
@@ -135,6 +153,24 @@
 	#pic-users {
 		order: 1;
 		margin-left: 20px;
+	}
+	
+	#bgtop-desktop2 {
+		display: none;
+	}
+	
+	#bgtop-mobile2 {
+		display: block;
+		width: 100%;
+	}
+	
+	#bgbottom-desktop2 {
+		display: none;
+	}
+	
+	#bgbottom-mobile2 {
+		display: block;
+		width: 100%;
 	}
 	
 	/* Footer Section */
@@ -174,10 +210,19 @@
 		font-size: 1.6rem;
 		margin-top: -10px;
 	}
+	
+	#footer-desktop {
+		display: none;
+	}
+	
+	#footer-mobile {
+		display: block;
+		width: 100%;
+	}
 }
 
 /* Extra Small Devices (Portrait Phones) */
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 575px) {
 	/* Nav Section */
 	nav img {
 		width: 50%;
@@ -237,6 +282,24 @@
 		margin-left: 5px;
 	}
 	
+	#bgtop-desktop1 {
+		display: none;
+	}
+	
+	#bgtop-mobile1 {
+		display: block;
+		width: 100%;
+	}
+	
+	#bgbottom-desktop1{
+		display: none;
+	}
+	
+	#bgbottom-mobile1{
+		display: block;
+		width: 100%;
+	}
+	
 	/* Flow Section */
 	#flow-text {		
 		text-align: center;
@@ -269,6 +332,24 @@
 	#pic-users {
 		order: 1;
 		margin-left: 20px;
+	}
+	
+	#bgtop-desktop2 {
+		display: none;
+	}
+	
+	#bgtop-mobile2 {
+		display: block;
+		width: 100%;
+	}
+	
+	#bgbottom-desktop2 {
+		display: none;
+	}
+	
+	#bgbottom-mobile2 {
+		display: block;
+		width: 100%;
 	}
 	
 	/* Footer Section */
@@ -309,4 +390,23 @@
 		font-size: 1.6rem;
 		margin-top: -10px;
 	}
+	
+	#footer-desktop {
+		display: none;
+	}
+	
+	#footer-mobile {
+		display: block;
+		width: 100%;
+	}
+}
+
+
+@media (min-width: 320px) and (max-width: 394px) {
+	/* Nav Section */
+	
+	#btn-try {
+		margin-top: -30px;
+	}
+	
 }
