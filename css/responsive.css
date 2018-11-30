@@ -34,7 +34,11 @@
 	}	
 	
 	/* Counter Section*/
-	.counter-text {
+	.stats-group {
+		margin: 0 40px;
+	}
+	
+	.stats-item {
 		text-align: center;
 	}
 	
@@ -89,12 +93,9 @@
 	}	
 	
 	/* Counter section */
-	#counter {
-		margin-left:190px;
-	}
-	
-	#messages-group {
-		padding-top: 50px;
+	.stats-group {
+		padding-left: 60px;
+		padding-right: 60px;		
 	}
 	
 	/* Grow section */
@@ -256,12 +257,12 @@
 	}
 	
 	/* Counter section */
-	#counter {
-		margin-left:110px;
+	.stats-group {
+		padding: 40px 150px;
 	}
 	
-	#messages-group {
-		padding-top: 50px;
+	.stats-item {
+		text-align: center;
 	}
 	
 	/* Grow section */
