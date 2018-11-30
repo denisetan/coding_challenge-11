@@ -38,14 +38,6 @@
 		margin: 0 40px;
 	}
 	
-	.stats-item {
-		text-align: center;
-	}
-	
-	#message-sent {
-   		padding-left: 0;
-	}
-	
 	/* Footer Section */
 	#footer-content {
 		justify-content: center;
@@ -258,11 +250,19 @@
 	
 	/* Counter section */
 	.stats-group {
-		padding: 40px 150px;
+		padding: 40px 0;
+		text-align: center;
 	}
 	
+	.stats-group img {
+		float: left;
+	}
 	.stats-item {
-		text-align: center;
+		display: inline-block;
+	}
+	
+	#message-sent {
+		padding-left: 0;
 	}
 	
 	/* Grow section */
